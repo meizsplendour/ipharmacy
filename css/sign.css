@@ -1,0 +1,149 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+BODY{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/female.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#signup{
+	height: 100vh;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	position: relative;
+	width: 100%;
+    max-width: 30rem;
+    background: whitesmoke;
+    padding: 10rem 0;
+    box-shadow: 0 0 20px rgb(33, 33, 33 / 40%);
+    border-radius: 2rem;
+    z-index: 1;
+}
+.container::before{
+	position: absolute;
+	content: '';
+	left: o;
+	top: 0;
+	height: 27rem;
+	width: 100%;
+	background: linear-gradient(to right, #59515e,#6d616f);
+	border-bottom-right-radius: 100%;
+	border-bottom-left-radius: 100%;
+	z-index: -1;
+}
+.heading{
+	position: absolute;
+	color: white;
+	font-size: 3rem;
+	top: 3.5rem;
+	left: 10rem
+}
+form{
+	background: white;
+	transform: translateX(10rem);
+	padding: 2rem 0;
+	border-radius: 1px;
+	box-shadow: 0 0 10rem rgb(33 33 33 / 60%);
+}
+.group{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+*/    align-items: baseline;
+
+}
+.group input{
+	position: relative;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 1rem 0;
+	/*margin-top: 1rem;*/
+	color:#59515e ;
+	font-size: 1rem;
+
+}
+.group >i{
+	color: #59515e;
+	font-size: 2rem;
+	margin-right: 1rem;
+
+}
+.group. col{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: white;
+	width: 100%;
+	height: 1px;
+}
+.group button{
+	background: linear-gradient(to right #59515e,#6d616f);
+	padding: 1.2rem 2.5rem;
+	margin: 3rem auto;
+	outline: none;
+	border: none;
+/*	color: white;*/
+	border-radius: 5rem;
+	
+ 
+
+}
+.group button:focus,
+.group button:hover{
+	background: linear-gradient(to right #59515e,#6d616f);
+	cursor: pointer;
+
+}
+.member{
+	text-align: center;
+
+}
+
+.member a{
+	text-decoration: none;
+}
+}
+ .member a span{
+ 	color: red;
+ 	 
+ }
+
+
+
+@media screen and (max-width: 700px){
+  .container: :before{;
+  	height: 10rem;
+  }
+  .heading{
+  	left: 50%;
+  	transform: translateX(-50%);
+  }
+ form{
+ 	transform: initial;
+ 	border-radius: initial;
+ 	box-shadow: none;
+ }
+}
+
+
+
+
+
+
+
+
+
